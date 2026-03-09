@@ -1,0 +1,10 @@
+
+
+Step 1: sudo raspi-config (To Enable P4 SPI)
+Step 2: sudo reboot (to restart your Raspberry Pi)
+Step 3: lsmod | grep spi (to see if spi_bcm2835 is listed)
+Step 4: sudo apt-get update
+        sudo apt-get upgrade
+Step 5: sudo apt-get install python3-dev python3-pip (setting up the RFID reader)
+Step 6: sudo pip3 install spidev (spidev library helps handle interactions with the SPI)
+Step 6: sudo pip3 install mfrc522 (MFRC522.py which is an implementation of the RFID RC522 interface)
