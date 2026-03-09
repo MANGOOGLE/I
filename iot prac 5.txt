@@ -1,0 +1,29 @@
+terminal 
+
+
+sudo raspi-config
+
+
+[  1)in config go to interface option
+   2)then click on p1 camera / enable
+] 
+
+
+
+pip install picamera
+
+
+
+
+
+code:
+
+
+import time
+from picamera import PiCamera
+camera = PiCamera()
+camera.resolution=(1200,720)
+camera.start_preview()
+time.sleep(5)
+camera.capture('/home/pi//Desktop/ty2.jpg')
+camera.stop_preview()
