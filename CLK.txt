@@ -1,7 +1,0 @@
-4-Digit 7-Segment Display
-
-CLK -> 40 DIO -> 38 VCC -> 02 GND -> 06
-
-RFID Card Reader / Writer
-
-SDA -> 24 SCK -> 23 MOSI -> 19 MISO -> 21 GND -> 06 RST -> 22 3.3V -> 01
